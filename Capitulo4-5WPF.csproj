@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Capitulo4_5WPF</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>

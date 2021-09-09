@@ -1,0 +1,28 @@
+﻿<Window x:Class="Capitulo4_5WPF.Capitulo4.Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo4_5WPF.Capitulo4"
+        mc:Ignorable="d"
+        Title="Ejercicio 1" Height="400" Width="500">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+            
+            <StackPanel Orientation="Vertical">
+                <Label Content=" Numero: "></Label>
+                
+                 <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="NumeroTextBox" Height="18" Width="80"></TextBox>
+                    <Button x:Name="CalcularButton" Content="Calcular" Margin="5,0" Click="CalcularButton_Click"></Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <ListBox x:Name="tablaListBox" Height="220" Width="150" Margin="5,10"> </ListBox>
+                </StackPanel>
+
+            </StackPanel>
+           
+        </StackPanel>
+    </Grid>
+</Window>
